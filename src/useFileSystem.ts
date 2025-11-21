@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
-import * as ExpoFileSystem from 'expo-file-system';
-import type { DownloadProgressData } from 'expo-file-system';
+import * as ExpoFileSystem from 'expo-file-system/legacy';
+import type { DownloadProgressData } from 'expo-file-system/legacy';
 import type { FileInfo, FileSystem } from './types';
 
 export function useFileSystem(): FileSystem {
