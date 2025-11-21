@@ -1,4 +1,5 @@
 import { useCallback, useState } from 'react';
+// use legacy because new file system doesn't have writeAsAsync
 import * as ExpoFileSystem from 'expo-file-system/legacy';
 import type { DownloadProgressData } from 'expo-file-system/legacy';
 import type { FileInfo, FileSystem } from './types';
